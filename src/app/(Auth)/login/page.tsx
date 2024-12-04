@@ -5,16 +5,28 @@ import Slider from '@/components/auth/Slider'
 const LoginPage = () => {
     return (
         <div className='bg-custom-purple h-screen'>
-            <div className="container mx-auto flex flex-row">
+            <div className="container bg-red-500 mx-auto flex flex-row">
                 <div className="basis-3/6">
-                    <h1 className="text-4xl font-bold text-white">Giriş Yap</h1>
-                    <Slider />
+                    <div className="container   mx-auto h-[70vh]">
+                        <div className="h-full flex items-center justify-center">
+                            <div className="w-[50%] h-[100%]">
+                                <Slider />
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="basis-3/6">
-                    <AuthForm />
+                <div className="container mx-auto h-[70vh]">
+                        <div className="h-full flex items-center justify-center">
+                            <div className="w-[50%] h-[100%]">
+                            <AuthForm />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
     )
 }
 

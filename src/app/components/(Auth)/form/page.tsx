@@ -2,7 +2,9 @@ import React from 'react'
 
 const AuthForm = () => {
   return (
-    <div>Auth Form Component</div>
+    <div className='container mx-auto flex justify-center items-center h-screen'>
+      <div>Create an account</div>
+    </div>
   )
 }
 
