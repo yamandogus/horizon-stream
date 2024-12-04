@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white p-4 mt-auto">
+    <footer className="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4">
       <div className="container mx-auto text-center">
         <p>&copy; 2024 Horizon Stream. Tüm hakları saklıdır.</p>
         <div className="mt-2 space-x-4">
